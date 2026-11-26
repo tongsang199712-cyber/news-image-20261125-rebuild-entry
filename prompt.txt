@@ -1,0 +1,30 @@
+Build prompt (make.fun bounty news-image-20261125, $100, entries close 2026-11-27T00:00Z)
+
+Rebuild the news-image entry for 25 November 2026 with the FULL day's news.
+An earlier version was already submitted (29 checks passed) but it was built
+in the early hours of 25 November, before most of the day's stories broke.
+
+1. Check the entry quota for news-image-20261125 first; stop if it cannot
+   be submitted again.
+2. Verify the news of Wednesday 25 November 2026 yourself with web search
+   (do not invent stories). Starting leads, all checked: two oil tankers
+   hit naval mines in the Strait of Hormuz; the Houthis hit Saudi Arabia's
+   Ras Tanura refinery; Australia and Solomon Islands signed a security
+   pact; Pope Leo lamented the COP31 collapse; Huawei was convicted in a
+   US court; Sarkozy and Carla Bruni were ordered to stand trial; Jensen
+   Huang was reinstated as Nvidia CEO; NATO is sending an AWACS aircraft
+   to Poland.
+3. Build fresh in this session, in a new directory, writing all code
+   yourself with the write/edit tools. Do NOT copy, import or read any
+   earlier entry's code (in particular never reuse the 20261120 code).
+   Same format as the news-image series: a program that draws the front
+   page in code and writes one image.
+4. Pure Python 3 standard library only (the sandbox installs nothing and
+   has no network): draw everything into a pixel buffer, encode the PNG
+   by hand, deterministic output (two runs byte-identical), 1024x1024,
+   under 1 MiB.
+5. README.md with make.fun live badges (no shields.io), .makefun/owner.json
+   naming the wallet, MIT LICENSE.
+6. Verify locally by running the program twice and comparing hashes.
+   Do NOT bundle and do NOT submit: the parent agent bundles this
+   session's transcripts and submits.
